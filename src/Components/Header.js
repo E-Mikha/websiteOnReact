@@ -7,8 +7,12 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import logo from "./logo192.png";
+import Home from "../Pages/Contacts";
+import AboutUs from "../Pages/AboutUs";
+import Contacts from "../Pages/Contacts";
+import Blog from "../Pages/Blog";
 
 export default class Header extends Component {
   render() {
@@ -53,12 +57,12 @@ export default class Header extends Component {
         </Navbar>
 
         <Router>
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/contacts" component={Contacts} />
-            <Route exact path="/blog" component={Blog} />
-          </Switch>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/about" element={<AboutUs />} />
+            <Route exact path="/contacts" element={<Contacts />} />
+            <Route exact path="/blog" element={<Blog />} />
+          </Routes>
         </Router>
       </>
     );
