@@ -10,16 +10,16 @@ export default class CarouselBox extends Component {
         <Carousel.Item>
           <img className="d-block w-100" src={pic1} alt="Project1" />
           <Carousel.Caption>
-            <h3>Project picture</h3>
-            <p>sadsfgfdfhghffvfdvdvfdsdcx</p>
+            <h3 style={{ color: "red" }}>Project image</h3>
+            <p style={{ color: "green" }}>sadsfgfdfhghffvfdvdvfdsdcx</p>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
           <img className="d-block w-100" src={pic2} alt="Project2" />
           <Carousel.Caption>
-            <h3>Project2 picture2</h3>
-            <p>sadsfgfdfhghffvfdvdvfdsdcx</p>
+            <h3 style={{ color: "red" }}>New project image</h3>
+            <p style={{ color: "green" }}>sadsfgfdfhghffvfdvdvfdsdcx</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
