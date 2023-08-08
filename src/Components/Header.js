@@ -7,7 +7,7 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import logo from "./logo192.png";
 import Home from "../Pages/Home";
 import AboutUs from "../Pages/AboutUs";

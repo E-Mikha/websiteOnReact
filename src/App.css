@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+.tabPaneImg {
+  margin: 10px;
+  width: 700px;
+  height: 400px;
+}
+
+.carouselImg {
+  width: 700px;
+  height: 600px;
+}
