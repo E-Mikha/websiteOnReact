@@ -5,10 +5,10 @@ import "../App.css"
 export default class AboutUs extends Component {
   render() {
     return (
-      <Container>
+      <Container className="containerAboutUs">
         <Tab.Container id="left-tabs-example" defaultActiveKey="first">
           <Row>
-            <Col sm={3}>
+            <Col className="colTab" sm={3}>
               <Nav variant="pills" className="flex-column" mt-2>
                 <Nav.Item>
                   <Nav.Link eventKey="first">Cambodia</Nav.Link>

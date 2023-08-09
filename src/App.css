@@ -37,9 +37,12 @@
   }
 }
 
+.containerAboutUs {
+  margin: 5px;
+}
 
 .tabPaneImg {
-  margin: 10px;
+  margin: 5px;
   width: 700px;
   height: 400px;
 }
