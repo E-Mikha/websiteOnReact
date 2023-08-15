@@ -81,7 +81,7 @@ export default class Blog extends Component {
             </div>
           </Col>
           <Col md="3">
-            <h5 className="text-center">Category</h5>
+            <h5 className="text-center mt-5">Category</h5>
             <Card>
               <ListGroup variant="flush">
                 <ListGroup.Item>Price Low</ListGroup.Item>
