@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/websiteOnReact/static/css/main.797e4991.css",
+    "main.js": "/websiteOnReact/static/js/main.4a5401cb.js",
+    "static/media/pic1.jpg": "/websiteOnReact/static/media/pic1.d9d041a7e739589f8681.jpg",
+    "static/media/pic2.jpg": "/websiteOnReact/static/media/pic2.db813d574db58ebbeec9.jpg",
+    "index.html": "/websiteOnReact/index.html",
+    "main.797e4991.css.map": "/websiteOnReact/static/css/main.797e4991.css.map",
+    "main.4a5401cb.js.map": "/websiteOnReact/static/js/main.4a5401cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.797e4991.css",
+    "static/js/main.4a5401cb.js"
+  ]
+}
